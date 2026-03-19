@@ -1,4 +1,4 @@
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   # 🚴 AI Risk Engine for Delivery Workers  An **AI-powered system** that predicts real-time disruption risk for delivery workers using environmental data such as **weather 🌧️ and air quality 🌫️**.  ---  ## 🌟 Problem Statement  Delivery workers (Zomato, Swiggy, gig workers) face **income instability** due to:  - 🌧 Sudden rain    - 🌫 Poor air quality    - 🚫 Reduced order demand during extreme conditions    ### ❌ Current Issues:  - No real-time risk awareness    - No predictive systems    - No automated protection    👉 **Result:** Unpredictable earnings and financial stress  ---  ## 👤 Target User (Persona)  ### 🎯 Primary User: Delivery Partner  - Age: 18–40    - Works on platforms like **Zomato / Swiggy**    - Income depends on daily conditions    - Needs predictable earnings    ### 😔 Pain Points:  - “Will I earn enough today?”    - “Should I go out in bad weather?”    - “No system warns me about risk”    ---  ## 💡 Solution  We built an **AI Risk Engine** that:  - 🔮 Predicts disruption risk in real-time    - 🌍 Uses environmental signals    - ⚡ Enables proactive decision-making    ---  ## 🤖 How the AI Works  ### 📥 Input Features:  - 🌧 Rainfall (mm)    - 🌫 AQI (Air Quality Index)    - 📍 Location (latitude, longitude)    ---  ### 🧠 Model:  ```python  LogisticRegression (Scikit-learn)   `
+ # 🚴 AI Risk Engine for Delivery Workers  An **AI-powered system** that predicts real-time disruption risk for delivery workers using environmental data such as **weather 🌧️ and air quality 🌫️**.  ---  ## 🌟 Problem Statement  Delivery workers (Zomato, Swiggy, gig workers) face **income instability** due to:  - 🌧 Sudden rain    - 🌫 Poor air quality    - 🚫 Reduced order demand during extreme conditions    ### ❌ Current Issues:  - No real-time risk awareness    - No predictive systems    - No automated protection    👉 **Result:** Unpredictable earnings and financial stress  ---  ## 👤 Target User (Persona)  ### 🎯 Primary User: Delivery Partner  - Age: 18–40    - Works on platforms like **Zomato / Swiggy**    - Income depends on daily conditions    - Needs predictable earnings    ### 😔 Pain Points:  - “Will I earn enough today?”    - “Should I go out in bad weather?”    - “No system warns me about risk”    ---  ## 💡 Solution  We built an **AI Risk Engine** that:  - 🔮 Predicts disruption risk in real-time    - 🌍 Uses environmental signals    - ⚡ Enables proactive decision-making    ---  ## 🤖 How the AI Works  ### 📥 Input Features:  - 🌧 Rainfall (mm)    - 🌫 AQI (Air Quality Index)    - 📍 Location (latitude, longitude)    ---  ### 🧠 Model:  ```python  LogisticRegression (Scikit-learn)   `
 
 ### 📊 Output: Risk Score (0 → 1)
 
@@ -7,15 +7,13 @@ Score RangeMeaning0 – 0.4Low Risk ✅0.4 – 0.7Medium Risk ⚠️0.7 – 1Hig
 ### 🧠 AI Logic
 
 The model learns patterns like:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   High rain + poor AQI → High risk  Moderate conditions → Medium risk  Clear weather → Low risk   `
+    High rain + poor AQI → High risk  Moderate conditions → Medium risk  Clear weather → Low risk   `
 
 👉 Output = **Probability of disruption**
 
 ⚙️ System Architecture
 ----------------------
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   User    ↓  Location API (IP-based)    ↓  Weather API + AQI API    ↓  ML Model (Risk Prediction)    ↓  Streamlit Dashboard   `
+   User    ↓  Location API (IP-based)    ↓  Weather API + AQI API    ↓  ML Model (Risk Prediction)    ↓  Streamlit Dashboard   `
 
 📡 How It Works (Flow)
 ----------------------
@@ -44,7 +42,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 🧠 Technical Implementation
 ---------------------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Frontend: Streamlit  Backend: Python  ML Model: Logistic Regression (Scikit-learn)  APIs: OpenWeather, IP Geolocation  Libraries: NumPy, Requests, Joblib   `
+  Frontend: Streamlit  Backend: Python  ML Model: Logistic Regression (Scikit-learn)  APIs: OpenWeather, IP Geolocation  Libraries: NumPy, Requests, Joblib   `
 
 📉 Market Crash Relevance 🚨
 ----------------------------
@@ -107,7 +105,7 @@ During economic downturns:
 
 ### 🔔 Alert System
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   "High risk expected in next 2 hours"   `
+   "High risk expected in next 2 hours"   `
 
 ### 💳 Parametric Insurance
 
@@ -133,7 +131,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 🚀 How to Run
 -------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com/CodeStartAI-009/guidwire.git  cd guidwire  python3 -m venv venv  source venv/bin/activate  pip install -r requirements.txt  export OPENWEATHER_API_KEY="your_api_key_here"  python ml/train_model.py  streamlit run app.py   `
+   git clone https://github.com/CodeStartAI-009/guidwire.git  cd guidwire  python3 -m venv venv  source venv/bin/activate  pip install -r requirements.txt  export OPENWEATHER_API_KEY="your_api_key_here"  python ml/train_model.py  streamlit run app.py   `
 
 ⚠️ Notes
 --------
@@ -152,7 +150,5 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 ⭐ Final Thought
 ---------------
-
-> “We are not just predicting risk — we are enabling financial stability for millions of gig workers.”
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   ---  # 🔥 WHAT YOU JUST GOT  This version is:  ✅ Clean GitHub rendering    ✅ Proper headings & spacing    ✅ Tables + code blocks    ✅ Highlighted AI logic    ✅ Judge-friendly    ---  # 🚀 FINAL STEP  ```bash  git add README.md  git commit -m "Final polished README"  git push   `
+ 
+   ---  # 🔥 WHAT YOU JUST GOT  This version is:  ✅ Clean GitHub rendering    ✅ Proper headings & spacing    ✅ Tables + code blocks    ✅ Highlighted AI logic    ✅ Judge-friendly    ---  # 🚀 FINAL STEP  ```bash  git add README.md  git commit -m "Final polished README"  git push   `
