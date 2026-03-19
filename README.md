@@ -66,7 +66,7 @@ guidwire/
 
 ### 1. Clone the repo
 
-git clone https://github.com/your-username/guidwire.git
+git clone https://github.com/CodeStartAI-009/guidwire.git
 
 cd guidwire
 
